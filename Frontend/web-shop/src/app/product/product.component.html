@@ -1,0 +1,88 @@
+<div class="container">
+    <div class="d-flex justify-content-center mt-5 pt-5" *ngIf="loading">
+        <mat-spinner [diameter]="40"></mat-spinner>
+    </div>
+    <div class="row justify-content-center" *ngIf="!loading">
+        <div class="col-xl-8 col-lg-10 col-12 mt-5">
+            <div class="d-flex align-items-center"><span class="text-primary cursor-pointer"
+                    routerLink="/shop">Shop</span> <span> <mat-icon class="mt-1">chevron_right</mat-icon> </span>
+                <span>{{product?.name}}</span></div>
+            <mat-card>
+                <mat-card-content>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-5 col-md-4 col-12 text-center">
+                            <img [src]="product?.imageUrl" alt="Image" width="100%" height="auto">
+                        </div>
+                        <div class="col-xl-6 col-lg-7 col-md-8 col-12">
+                            <h1>{{product?.name}}</h1>
+                            <h2 class="text-primary">{{product?.price | number:'1.2-2'}} RSD</h2>
+                            <p class="text-secondary">{{product?.description}}</p>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <ng-container *ngIf="product.avgRating > 0; else notRatedTemplate">
+                                    <mat-icon color="accent">star</mat-icon>    
+                                    <span class="font-16 font-bold text-accent">{{product.avgRating | number:'1.1-2'}}</span>
+                                </ng-container>
+                                
+                            </div>
+                            <div class="mt-4">
+                                <p>Brand: <strong>{{product?.brand?.name}}</strong></p>
+                            </div>
+
+                            <ng-container *ngIf="product?.items && product.items.length > 0; else noSizesTemplate">
+                                <div class="mt-1">
+                                    <p>Sizes:</p>
+                                    <div class="mb-1">
+                                        <mat-chip-listbox aria-label="Select size" (change)="changeSize($event)">
+                                            <mat-chip-option color="accent" *ngFor="let itemSize of getDistinctSizes(product?.items)">{{itemSize}}</mat-chip-option>
+                                        </mat-chip-listbox>
+                                    </div>
+                                    <mat-error *ngIf="showErrorMessage">Please select size.</mat-error>
+                                </div>
+                                <div class="mt-3 text-end">
+                                    <button mat-flat-button color="primary" (click)="addToCart()">Add to cart</button>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="col-xl-3 col-lg-10 col-12 mt-5" *ngIf="productRatings?.length > 0">
+            <h3 class="mb-1">Ratings</h3>
+            <mat-card *ngFor="let rate of productRatings" class="mb-2">
+                <mat-card-content>
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>
+                            {{rate?.customerName}}
+                        </div>
+                        <div class="text-secondary">
+                            {{rate?.creationDate | date:'mediumDate'}}
+                        </div>
+                    </div>
+                    <div>
+                        <ng-container *ngFor="let rateValue of [1, 2, 3, 4, 5]">
+                            <mat-icon [color]="rate.rate >= rateValue ? 'accent' : 'secondary'">star</mat-icon>
+                        </ng-container>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>
+
+<div class="toast-container position-fixed bottom-0 start-0 p-3">
+  <div id="liveToast" class="bg-success" [class]="showSuccess ? 'toast fade show' : 'toast fade hide'" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body text-white">
+      Product added to cart!
+    </div>
+  </div>
+</div>
+
+<ng-template #noSizesTemplate>
+    <p>Sizes: <i class="text-lt-gray">Not available</i></p>
+</ng-template>
+
+<ng-template #notRatedTemplate>
+    <mat-icon class="text-lt-gray">star</mat-icon>
+    <span class="text-lt-gray"><i>Not rated</i></span>
+</ng-template>

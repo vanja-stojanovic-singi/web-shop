@@ -1,0 +1,65 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thanks you
+    - appreciate it
+    - many thanks
+
+- intent: search_majca
+  examples: |
+    - I want to find a [majca](clothes)
+    - can i get a [majca](clothes)
+    - i'd like to have a [majca](clothes)
+    - let's find a [majca](clothes)
+    - how about a [majca](clothes)
+
+- intent: search_clothes
+  examples: |
+    - I want to find some clothes
+    - Can you find clothes
+
+- intent: inform_search_clothes
+  examples: |
+    - Find me some [jacket](clothes)
+    - I need some [jacket](clothes)
+    - I need [tshirt](clothes)
+    - some [shirt](clothes)
+    - some [jeans](clothes)
+    - some [pants](clothes)
+    - some [jacket](clothes)
+    - [coat](clothes)
+
+- intent: inform_search_size
+  examples: |
+    - size [l](size)
+    - need size [m](size)
+    - find me size [xl](size)
+    - give me size [s](size)
+    - show me size [s](size)
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

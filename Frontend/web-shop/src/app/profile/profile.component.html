@@ -1,0 +1,258 @@
+<!-- <p class="text-end p-1">
+    <button mat-stroked-button color="warn" class="mr-1" (click)="clearStorage()">Clear Storage</button>
+</p> -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-10 col-12 mt-5">
+            <div class="d-flex justify-content-between align-items-center" *ngIf="!editMode">
+                <h1>My Profile</h1>
+                <button mat-button color="primary" class="mr-1" *ngIf="user" (click)="editProfile()">Edit
+                    <mat-icon>edit</mat-icon></button>
+            </div>
+
+            <div class="d-flex justify-content-center mt-5" *ngIf="!user">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+            <ng-container *ngIf="user">
+                <div class="row" *ngIf="!editMode">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-12 text-center pb-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/2048px-User-avatar.svg.png"
+                            alt="Image" class="avatar-image">
+                    </div>
+                    <div class="col-xl-10 col-lg-9 col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 mb-2">
+                                <mat-card>
+                                    <mat-card-content class="pt-1 pb-1">
+                                        <p class="mb-0 text-secondary">Name</p>
+                                        <h2 class="font-bold m-0 p-0">{{user?.name}}</h2>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div class="col-lg-6 col-12 mb-2">
+                                <mat-card>
+                                    <mat-card-content class="pt-1 pb-1">
+                                        <p class="mb-0 text-secondary">Email</p>
+                                        <h2 class="font-bold m-0 p-0">{{user?.email}}</h2>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div class="col-lg-6 col-12 mb-2">
+                                <mat-card>
+                                    <mat-card-content class="pt-1 pb-1">
+                                        <p class="mb-0 text-secondary">Phone Number</p>
+                                        <h2 class="font-bold m-0 p-0">{{user?.phone}}</h2>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div class="col-lg-6 col-12 mb-2">
+                                <mat-card>
+                                    <mat-card-content class="pt-1 pb-1">
+                                        <p class="mb-0 text-secondary">Zip Code</p>
+                                        <h2 class="font-bold m-0 p-0">{{user?.zip}}</h2>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <mat-card>
+                                    <mat-card-content class="pt-1 pb-1">
+                                        <p class="mb-0 text-secondary">Address</p>
+                                        <h2 class="font-bold m-0 p-0">{{user?.address}}, {{user?.city}}</h2>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <mat-card>
+                                    <mat-card-content class="pt-1 pb-1">
+                                        <p class="mb-0 text-secondary">Birthday</p>
+                                        <h2 class="font-bold m-0 p-0">{{user?.birthday | date: 'mediumDate'}}</h2>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" *ngIf="editMode">
+                    <mat-tab-group>
+                        <mat-tab label="Edit Profile">
+                            <div class="col-12">
+                                <mat-card>
+                                    <mat-card-header>
+                                        <mat-card-title>Edit Profile</mat-card-title>
+                                    </mat-card-header>
+                                    <mat-card-content>
+                                        <form class="mt-4" [formGroup]="editForm" (submit)="saveProfile()">
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Email</mat-label>
+                                                <input matInput placeholder="name@example.com" formControlName="email"
+                                                    readonly="true">
+                                                <mat-error
+                                                    *ngIf="editForm.get('email')?.touched && editForm.get('email')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                                <mat-error
+                                                    *ngIf="editForm.get('email')?.touched && editForm.get('email')?.errors?.['email']">Email
+                                                    address is not valid!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Name</mat-label>
+                                                <input matInput placeholder="Name" formControlName="name">
+                                                <mat-error
+                                                    *ngIf="editForm.get('name')?.touched && editForm.get('name')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Address</mat-label>
+                                                <input matInput placeholder="Address" formControlName="address">
+                                                <mat-error
+                                                    *ngIf="editForm.get('address')?.touched && editForm.get('address')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>City</mat-label>
+                                                <input matInput placeholder="City" formControlName="city">
+                                                <mat-error
+                                                    *ngIf="editForm.get('city')?.touched && editForm.get('city')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Zip Code</mat-label>
+                                                <input matInput placeholder="Zip Code" formControlName="zip">
+                                                <mat-error
+                                                    *ngIf="editForm.get('zip')?.touched && editForm.get('zip')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Phone Number</mat-label>
+                                                <input matInput placeholder="Phone Number" formControlName="phone">
+                                                <mat-error
+                                                    *ngIf="editForm.get('phone')?.touched && editForm.get('phone')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Birthday</mat-label>
+                                                <input matInput [matDatepicker]="picker" formControlName="birthday">
+                                                <mat-hint>MM/DD/YYYY</mat-hint>
+                                                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                                                <mat-datepicker #picker></mat-datepicker>
+                                                <mat-error
+                                                    *ngIf="editForm.get('birthday')?.touched && editForm.get('birthday')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <div class="text-end mt-4">
+                                                <button mat-raised-button color="primary" class="mr-1">Save</button>
+                                                <button mat-stroked-button type="button"
+                                                    (click)="cancelEdit()">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </mat-tab>
+                        <mat-tab label="Change Password">
+                            <div class="col-12">
+                                <mat-card>
+                                    <mat-card-header>
+                                        <mat-card-title>Change Password</mat-card-title>
+                                    </mat-card-header>
+                                    <mat-card-content>
+                                        <form class="mt-4" [formGroup]="passwordForm" (submit)="savePassword()">
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>Old Password</mat-label>
+                                                <input matInput type="password" placeholder="Old Password"
+                                                    formControlName="oldPassword">
+                                                <mat-error
+                                                    *ngIf="passwordForm.get('oldPassword')?.touched && passwordForm.get('oldPassword')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <mat-form-field class="full-width mb-1">
+                                                <mat-label>New Password</mat-label>
+                                                <input matInput type="password" placeholder="New Password"
+                                                    formControlName="newPassword">
+                                                <mat-error
+                                                    *ngIf="passwordForm.get('newPassword')?.touched && passwordForm.get('newPassword')?.errors?.['required']">This
+                                                    field is required!</mat-error>
+                                            </mat-form-field>
+                                            <div class="text-end mt-4">
+                                                <button mat-raised-button color="primary" class="mr-1">Save</button>
+                                                <button mat-stroked-button type="button"
+                                                    (click)="cancelEdit()">Cancel</button>
+                                            </div>
+                                        </form>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </mat-tab>
+                    </mat-tab-group>
+                </div>
+            </ng-container>
+
+            <div class="row mt-3" *ngIf="!editMode && user">
+                <h3 class="pt-3 mb-2">My Orders</h3>
+                <div class="d-flex justify-content-center mt-5" *ngIf="loadingOrders">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <ng-container *ngIf="!loadingOrders">
+                    <div class="col-12 text-center text-secondary" *ngIf="myOrders.length < 1">No orders</div>
+                    <ng-container *ngFor="let order of myOrders">
+                        <div class="col-lg-8 col-12" *ngFor="let item of order.items; let ind = index;">
+                            <mat-card class="mb-2">
+                                <mat-card-content class="p-2">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <span class="text-secondary font-12">Order {{order.id}}/{{item.id}}</span>
+                                        <span class="text-secondary">{{order.createdDate | date:'mediumDate'}}</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <img [src]="item.product.imageUrl" alt="Image" width="100%">
+                                        </div>
+                                        <div class="col-8 position-relative">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <p class="mb-0 font-16 cursor-pointer" [routerLink]="['/shop/products', item.product.id]"><strong>{{item.product.name}}</strong></p>
+                                            </div>
+                                            <p class="mb-0">Brand: <span class="text-secondary">{{item.product.brand.name}}</span>
+                                            </p>
+                                            <p>Size: <span class="text-secondary">{{item.size}}</span></p>
+                                            <p class="mb-0"><strong>{{item.product.price | number:'1.2-2'}} RSD</strong></p>
+                                            <div class="d-flex align-items-center justify-content-end"
+                                                *ngIf="!item.product.avgRating">
+                                                <span>Rate:</span>
+                                                <button mat-icon-button (click)="rate(item, 1)">
+                                                    <mat-icon>star</mat-icon>
+                                                </button>
+                                                <button mat-icon-button (click)="rate(item, 2)">
+                                                    <mat-icon>star</mat-icon>
+                                                </button>
+                                                <button mat-icon-button (click)="rate(item, 3)">
+                                                    <mat-icon>star</mat-icon>
+                                                </button>
+                                                <button mat-icon-button (click)="rate(item, 4)">
+                                                    <mat-icon>star</mat-icon>
+                                                </button>
+                                                <button mat-icon-button (click)="rate(item, 5)">
+                                                    <mat-icon>star</mat-icon>
+                                                </button>
+                                            </div>
+                                            <div class="d-flex justify-content-end mt-2 mb-1 mr-1 align-items-center"
+                                                *ngIf="item.product.avgRating > 0">Rated:
+                                                <mat-icon color="accent">star</mat-icon>
+        
+                                                <span class="text-accent font-bold">{{item.product.avgRating}}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </ng-container>
+                </ng-container>
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,651 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\implementation\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\implementation\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\services\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\services\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\productrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\productrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\auth\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\auth\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\iproductitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\iproductitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\implementation\\productitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\implementation\\productitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\implementation\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\implementation\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\implementation\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\implementation\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\migrations\\20250516184336_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\migrations\\20250516184336_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|c:\\users\\vanja\\desktop\\singidunum\\diplomski\\app\\backend\\webshopapi\\webshopapi\\migrations\\20250521175540_dbcleanuprl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC289DC-4162-4F9D-B4DE-5F20E8101977}|WebShopApi\\WebShopApi.csproj|solutionrelative:webshopapi\\migrations\\20250521175540_dbcleanuprl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\Implementation\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\OrderRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\Implementation\\OrderRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:50:27.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebShopApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:19:17.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\IOrderService.cs",
+              "RelativeToolTip": "WebShopApi\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:00:21.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\Implementation\\ProductService.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Services\\Implementation\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\Implementation\\ProductService.cs",
+              "RelativeToolTip": "WebShopApi\\Services\\Implementation\\ProductService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:38:02.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\Implementation\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\ProductRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\Implementation\\ProductRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:26:51.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\IProductService.cs",
+              "RelativeToolTip": "WebShopApi\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:37:27.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:41:40.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Services\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "WebShopApi\\Services\\Implementation\\OrderService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:02:17.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebShopApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAlwDwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:19:55.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\Rating.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\Rating.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:37:48.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\Product.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:57:46.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRating.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\ProductRating.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\ProductRating.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\ProductRating.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\ProductRating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:42:44.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "WebShopApi\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:48:03.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebShopApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:37:31.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Program.cs",
+              "RelativeToolTip": "WebShopApi\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAApwEQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:47:11.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Auth\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Auth\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Auth\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "WebShopApi\\Auth\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:17:37.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebShopApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:22:06.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:05:14.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\ProductItemRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\Implementation\\ProductItemRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\ProductItemRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\Implementation\\ProductItemRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAhwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:56:42.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IProductItemRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IProductItemRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IProductItemRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IProductItemRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:55:19.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\OrderItem.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:43:13.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\IUsersService.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Services\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Services\\IUsersService.cs",
+              "RelativeToolTip": "WebShopApi\\Services\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:41:41.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\Order.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:59:04.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250521175540_dbCleanupRl.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Migrations\\20250521175540_dbCleanupRl.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Migrations\\20250521175540_dbCleanupRl.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Migrations\\20250521175540_dbCleanupRl.cs",
+              "RelativeToolTip": "WebShopApi\\Migrations\\20250521175540_dbCleanupRl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:55:40.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\User.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:09:53.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebShopApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\appsettings.json",
+              "RelativeToolTip": "WebShopApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T18:44:20.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250516184336_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Migrations\\20250516184336_Init.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Migrations\\20250516184336_Init.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Migrations\\20250516184336_Init.cs",
+              "RelativeToolTip": "WebShopApi\\Migrations\\20250516184336_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:43:36.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductItem.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\ProductItem.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Models\\ProductItem.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Models\\ProductItem.cs",
+              "RelativeToolTip": "WebShopApi\\Models\\ProductItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:57:06.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:07:13.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Auth\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Auth\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Auth\\JwtSettings.cs",
+              "RelativeToolTip": "WebShopApi\\Auth\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:14:21.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\Implementation\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\OrderItemRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\Implementation\\OrderItemRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:52:09.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\Implementation\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\Implementation\\CategoryRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:48:37.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\Implementation\\BrandRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\Implementation\\BrandRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\Implementation\\BrandRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:46:09.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "WebShopApi\\Controllers\\RatingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:58:47.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IBrandRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IBrandRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IBrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:39:18.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IRatingRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IRatingRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:43:38.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\IOrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\IOrderItemRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\IOrderItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:41:52.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebShopApi\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:42:51.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebShopApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Vanja\\Desktop\\Singidunum\\Diplomski\\app\\Backend\\WebShopApi\\WebShopApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebShopApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:19:41.767Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

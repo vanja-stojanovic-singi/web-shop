@@ -1,0 +1,23 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Parse search request
+  steps:
+  - intent: search_clothes
+  - action: action_search_clothes
+    
+- rule: First search request
+  steps:
+  - intent: inform_search_clothes
+  - action: action_confirm_search_step_one
+
+- rule: Second search request
+  steps:
+  - intent: inform_search_size
+  - action: action_confirm_search_step_two

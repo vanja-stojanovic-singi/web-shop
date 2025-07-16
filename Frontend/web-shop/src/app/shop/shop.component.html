@@ -1,0 +1,91 @@
+<div class="col-12 mt-5">
+    <div class="row">
+        <div class="col-xxl-3 col-4">
+            <div class="mb-1">
+                <mat-form-field class="full-width">
+                    <mat-label>Search</mat-label>
+                    <input matInput placeholder="Search" [(ngModel)]="searchValue" (keyup)="loadProducts()">
+                </mat-form-field>
+            </div>
+            <h3 class="font-bold mb-3">Filters</h3>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Brand
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-selection-list (selectionChange)="filterChanged($event, 'brand')">
+                        <mat-list-option *ngFor="let brand of productBrands" [value]="brand.id">{{brand.name}}</mat-list-option>
+                    </mat-selection-list>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <br>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Category
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-selection-list (selectionChange)="filterChanged($event, 'category')">
+                        <mat-list-option *ngFor="let category of productCategories" [value]="category.id">{{category.name}}</mat-list-option>
+                    </mat-selection-list>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <br>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Size
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-selection-list (selectionChange)="filterChanged($event, 'size')">
+                        <mat-list-option *ngFor="let size of productSizes" [value]="size">{{size}}</mat-list-option>
+                    </mat-selection-list>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+        <div class="col-xxl-9 col-8">
+            <div class="d-flex mt-5 justify-content-center" *ngIf="loading">
+                <mat-spinner [diameter]="40"></mat-spinner>
+            </div>
+            <ng-container *ngIf="!loading">
+                <div class="row" *ngIf="products.length > 0">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3" *ngFor="let product of products">
+                        <mat-card class="cursor-pointer" [routerLink]="['/shop', 'products', product.id]">
+                            <mat-card-content>
+                                <div
+                                    [style]="'height: 200px; background-image: url(' + product.imageUrl + '); background-position: center; background-size: 100% auto; background-repeat: no-repeat;'">
+                                </div>
+                                <p class="product-title mt-4 mb-0">{{product.name}}</p>
+                                <p class="product-description">{{product.description}}</p>
+                                <div class="d-flex justify-content-between mt-1">
+                                    <div class="d-inline-block text-accent">
+                                        <div class="d-flex align-items-center">
+                                            <ng-container *ngIf="product?.avgRating > 0; else notRatedTemplate">
+                                                <mat-icon color="accent">star</mat-icon>
+                                                <span>{{product.avgRating | number:'1.1-2'}}</span>
+                                            </ng-container>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline-block font-bold">
+                                        {{product.price | number:'1.2-2'}} RSD
+                                    </div>
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                </div>
+                <h2 class="text-center text-secondary mt-5 pt-3" *ngIf="products.length == 0"><i>No results found</i></h2>
+            </ng-container>
+            
+        </div>
+    </div>
+</div>
+
+<ng-template #notRatedTemplate>
+    <mat-icon class="text-lt-gray">star</mat-icon>
+    <span class="text-lt-gray"><i>Not rated</i></span>
+</ng-template>

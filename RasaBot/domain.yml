@@ -1,0 +1,45 @@
+version: "3.1"
+
+slots:
+ first_step_clothes_entity:
+  type: text
+  mappings:
+   - type: custom
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - search_majca
+  - search_clothes
+  - inform_search_clothes
+  - inform_search_size
+  - bot_challenge
+
+entities:
+  - clothes
+  - size
+  - first_step_clothes_entity
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_thanks:
+  - text: "You are welcome. It was my pleasure."
+  
+  utter_default_search_response:
+  - text: "Sure, what type of clothes?"
+
+
+actions:
+  - action_search_clothes
+  - action_confirm_search_step_one
+  - action_confirm_search_step_two
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

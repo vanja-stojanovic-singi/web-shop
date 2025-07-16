@@ -1,0 +1,30 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Express Thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+#- story: Default search init
+#  steps:
+#  - intent: search_clothes
+#  - action: utter_default_search_response
+
+- story: Search for clothes
+  steps:
+  - intent: search_clothes
+  - action: action_search_clothes
+
+- story: Search for clothes short
+  steps:
+  - intent: inform_search_clothes
+  - action: action_confirm_search_step_one
+  - intent: inform_search_size
+  - action: action_confirm_search_step_two

@@ -1,0 +1,154 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+    height: 100%;
+}
+
+.text-accent {
+    color: #ff4081;
+}
+
+.text-lt-gray {
+    color: #aaa;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.font-bold {
+    font-weight: bold !important;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-description {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 2px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.drawer-container {
+    height: calc(100% - 64px);
+    overflow: auto;
+}
+
+.drawer-sidenav-content {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.drawer-sidenav {
+    width: 400px;
+    max-width: 80%;
+}
+
+.avatar-image {
+    width: 150px;
+    max-width: 100%;
+}
+
+.mr-1 {
+    margin-right: 0.75rem;
+}
+
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+  
+.chat-toggle {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+  
+.chat-box {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+  
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+  
+.chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+  
+.chat-footer input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+  
+.chat-footer button {
+    margin-left: 5px;
+}
+
+.chat-icon {
+    content: '\F24A';
+}
+
+.chat-message {
+    width: 80%;
+    display: inline-block;
+}
+
+.m-l-20p {
+    margin-left: 20%;
+}

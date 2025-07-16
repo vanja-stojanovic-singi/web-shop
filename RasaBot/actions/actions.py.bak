@@ -1,0 +1,80 @@
+# This files contains your custom actions which can be used to run
+# custom Python code.
+#
+# See this guide on how to implement these action:
+# https://rasa.com/docs/rasa/custom-actions
+
+
+# This is a simple example for a custom action which utters "Hello World!"
+
+# from typing import Any, Text, Dict, List
+#
+# from rasa_sdk import Action, Tracker
+# from rasa_sdk.executor import CollectingDispatcher
+#
+#
+# class ActionHelloWorld(Action):
+#
+#     def name(self) -> Text:
+#         return "action_hello_world"
+#
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#
+#         dispatcher.utter_message(text="Hello World!")
+#
+#         return []
+
+from typing import Any, Text, Dict, List
+
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
+
+class SearchClothesAction(Action):
+     def name(self) -> Text:
+          return "action_search_clothes"
+     
+     def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+          dispatcher.utter_message(text="Sure, which kind of clothes would you like to find?")
+
+          return []
+
+class ConfirmationSearchStepOneAction(Action):
+     def name(self) -> Text:
+          return "action_confirm_search_step_one"
+     
+     def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+          
+            clothes_entity = next(tracker.get_latest_entity_values('clothes'), None)
+
+            if clothes_entity:
+                dispatcher.utter_message(text="Which size do you want?")
+                return [SlotSet("first_step_clothes_entity", clothes_entity)]
+            else:
+                dispatcher.utter_message(text="Iam sorry, I could not detect the clothes choice.")
+
+            return []
+            
+class ConfirmationSearchStepTwoAction(Action):
+     def name(self) -> Text:
+          return "action_confirm_search_step_two"
+     
+     def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+          
+            clothes_entity = tracker.get_slot('first_step_clothes_entity')
+            size_entity = next(tracker.get_latest_entity_values('size'), None)
+
+            if clothes_entity or size_entity:
+                dispatcher.utter_message(text=f"<a href='/search?category={clothes_entity}&size={size_entity}'>Search results</a>")
+            else:
+                dispatcher.utter_message(text="Iam sorry, I could not detect the clothes or size choice.")
+
+            return []
